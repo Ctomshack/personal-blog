@@ -11,6 +11,7 @@ export default function Home({ articles }) {
         <title>{`Chris Tomshack's Blog`}</title>
         <meta name="Chris Tomshack Blog" content="Chris Tomshack Blog" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"></link>
       </Head>
 
       <div className={styles.grid}>

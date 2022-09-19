@@ -16,7 +16,7 @@ const ArticleCard = ({ article } ) => {
         layout='fill'
         />
       </div>
-      <span className={styles.articleDate} style={{paddingLeft: '2rem'}}>{moment(article.createdAt).format('MMM DD, YYYY')}</span>
+      <span className={styles.articleDate} style={{paddingLeft: '2rem'}}><i class="bi bi-calendar-event" style={{marginRight: '.5rem'}}></i>{moment(article.createdAt).format('MMM DD, YYYY')}</span>
       <h2 className={styles.articleTitle}>
         <Link href={`/article/${article.slug}`}>
         {article.title}
@@ -24,7 +24,7 @@ const ArticleCard = ({ article } ) => {
         </h2>
       <p className={styles.articleExcerpt}>{article.excerpt}</p>
       <Link href={`/article/${article.slug}`}>
-        <button className={styles.btnPrimary}>Read more</button>
+        <button className={styles.btnPrimary} style={{margin: '0 2rem 1rem 2rem'}}>Read more<i className="bi bi-arrow-right-short" style={{marginLeft: '.25rem'}}></i></button>
         </Link>
     </div>
   )

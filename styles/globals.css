@@ -94,10 +94,12 @@ a {
 button {
   display: inline-block;
   line-height: 35px;
+  width: 10rem;
   margin: 8px;
-  padding: 0 15px;
+  padding: 0 2rem;
   font-size: 15px;
   position: relative;
   opacity: .999;
   border-radius: 3px;
+  transition-duration: .3s;
 }

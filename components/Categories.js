@@ -19,7 +19,9 @@ const Categories = () => {
       {categories.map((category, index) => {
         return (
           <Link key={index} href={`/category/${category.slug}`}>
-            <span className={styles.categoryT}>{category.name}</span>
+            <div className={styles.category}>
+              <span className={styles.categoryTitle}>{category.name}</span>
+            </div>
           </Link>
         )
       })}
