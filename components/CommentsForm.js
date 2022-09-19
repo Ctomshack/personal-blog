@@ -86,29 +86,27 @@ const CommentsForm = ({ slug }) => {
           className={styles.commentsFormTextBox}
           placeholder="Comment"
           name="comment"
-          defaultValue={""}
+          style={{fontFamily:'sans-serif'}}
         />
       </div>
       <div className={styles.commentsFormTextArea}>
         <input
           style={{ paddingleft: "1rem", paddingRight: "1rem" }}
           type="text"
-          value={formData.name}
+          value={formData.name || ''}
           onChange={onInputChange}
           className={styles.commentsFormTextBox}
           placeholder="Name"
           name="name"
-          defaultValue={""}
         />
         <input
           style={{ paddingleft: "1rem", paddingRight: "1rem" }}
           type="text"
-          value={formData.email}
+          value={formData.email || ''}
           onChange={onInputChange}
           className={styles.commentsFormTextBox}
           placeholder="Email"
           name="email"
-          defaultValue={""}
         />
       </div>
       <div className={styles.commentsFormTextArea}>
@@ -119,8 +117,8 @@ const CommentsForm = ({ slug }) => {
             type="checkbox"
             id="storeData"
             name="storeData"
-            value="true"
-            defaultValue={""}
+            value={"true" || ''}
+
           />
           <label
             style={{
