@@ -46,13 +46,13 @@ const ArticleContent = ({ article }) => {
   
   return (
     <div className={styles.singleArticleContainer}>
-      <div className={styles.singelArticleImageWrapper}>
-        {/* <Image 
+      <div className={styles.articleImageWrapper}>
+        <Image 
           src={article.featuredImage.url}
           alt={article.title}
-          className={styles.singleArticleImage}
+          className={styles.articleImage}
           layout='fill'
-          /> */}
+          />
       </div>
         <span className={styles.articleDate} style={{paddingLeft: '2rem'}}>{moment(article.createdAt).format('MMM DD, YYYY')}</span>
         <h2 className={styles.articleTitle}>{article.title}</h2>

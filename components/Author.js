@@ -7,7 +7,7 @@ const Author = ({ author }) => {
   return (
     <div className={styles.authorContainer}>
       <div className={styles.authorWrapper}>
-        <Image unoptimized alt={author.name} height="100px" width="100px" className={styles.authorImage} src={author.photo.url} />
+        {/* <Image  alt={author.name} height="100px" width="100px" className={styles.authorImage} src={author.photo.url} /> */}
 
       </div>
         <h3 className={styles.authorName}>{author.name}</h3>
