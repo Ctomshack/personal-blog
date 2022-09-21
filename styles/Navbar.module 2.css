@@ -13,7 +13,7 @@
     align-items: center;
     border-bottom-width: 1px;
     width: 100%;
-    border-bottom: 1px #ccd6f6 solid;
+    border-bottom: 1px #f5eee6 solid;
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
@@ -36,7 +36,7 @@
     display: inline-block;
     margin-top: 0.5rem;
     vertical-align: middle; 
-    color: #ccd6f6;
+    color: #f5eee6;
     margin-left: 1rem;
     letter-spacing: 1.2px;
     transition-duration: .3s;
@@ -55,7 +55,7 @@
     font-weight: bold;
     font-size: 2.25rem;
     line-height: 2.5rem; 
-    color: #ccd6f6;
+    color: #f5eee6;
     transition-duration: .2s;
     letter-spacing: 1.2px;
   }
