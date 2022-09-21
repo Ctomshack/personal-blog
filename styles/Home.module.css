@@ -67,7 +67,7 @@
   }
 
   .blogSectionTitle {
-    font-size: 12rem;
+    font-size: 15rem;
     font-weight: 700;
     color: #8d8d8d;
     opacity: .4;
@@ -89,7 +89,7 @@
     width: 100%;
     min-width: 500px;
     padding-inline: 2rem;
-    margin-top: -4.5rem;
+    margin-top: -5.5rem;
 }
 
 .blogArticle {
