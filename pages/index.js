@@ -47,8 +47,8 @@ export default function Home({ articles }) {
                 <div className={styles.articleTitle}>Goal Setting - How To Set Goals And Why You Should</div>
                 <div className={styles.articleExcerpt}>{"In 1979, Harvard conducted a survey wherein they asked the graduating MBA class: “Have you set clear, written goals for..."}</div>
               </div>
-              <div className={styles.blogArticle} style={{borderTop: '2px solid red'}}>
-                <div className={styles.articleCategory} style={{color: 'red'}}>PRODUCTIVITY</div>
+              <div className={styles.blogArticle} style={{borderTop: '2px solid #ff6489'}}>
+                <div className={styles.articleCategory} style={{color: '#ff6489'}}>PRODUCTIVITY</div>
                 <div className={styles.articleTitle}>How I Increased My Reading Speed By 300% In 20 Minutes</div>
                 <div className={styles.articleExcerpt}>{`"Not all readers are leaders, but all leaders are readers.” - Harry S. Truman`}</div>
                 <div className={styles.articleExcerpt}>{`You have probably heard this...`}</div>

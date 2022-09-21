@@ -17,7 +17,7 @@
     /* border: solid 1px #f5eee6; */
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 600px;
+    height: 800px;
     margin-bottom: 3rem;
   }
 
