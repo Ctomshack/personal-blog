@@ -94,7 +94,7 @@
 
 .blogArticle {
     width: 48%;
-    min-width: 400px;
+    min-width: 330px;
     /* display: grid;
     grid-template-rows: auto; */
     display: flex;
