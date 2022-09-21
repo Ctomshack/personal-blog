@@ -54,7 +54,7 @@ const ArticleContent = ({ article }) => {
           layout='fill'
           />
       </div>
-        <span className={styles.articleDate} style={{paddingLeft: '2rem'}}>{moment(article.createdAt).format('MMM DD, YYYY')}</span>
+      <span className={styles.articleDate} style={{paddingLeft: '2rem'}}><i className="bi bi-calendar-event" style={{marginRight: '.5rem'}}></i>{moment(article.createdAt).format('MMM DD, YYYY')}</span>
         <h2 className={styles.articleTitle}>{article.title}</h2>
         {article.postContent.raw.children.map((typeObj, index) => {
           const children = typeObj.children.map((item, index) => getContentFragment(index, item.text, item));
