@@ -9,7 +9,7 @@ const Comments = ({ slug }) => {
 
   useEffect(() => {
     getComments(slug).then((result) => setComments(result));
-  }, []);
+  }, [slug]);
 
   const capitalizeName = (name) => {
     let newName = name.charAt(0).toUpperCase()
