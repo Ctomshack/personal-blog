@@ -15,7 +15,7 @@ const ArticleDetails = ({ article }) => {
   return (
     <div className={styles.container}>
       <div className={styles.grid}>
-        <div className={styles.articleCard}>
+        <div className={styles.singleArticleGridContainer}>
           <ArticleContent article={article} />
           <Author author={article.author} />
           <CommentsForm slug={article.slug} />

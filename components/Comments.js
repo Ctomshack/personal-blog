@@ -11,7 +11,12 @@ const Comments = ({ slug }) => {
     getComments(slug).then((result) => setComments(result));
   }, []);
 
-  // console.log(comments)
+  const capitalizeName = (name) => {
+    let newName = name.charAt(0).toUpperCase()
+     + name.slice(1)
+ 
+    return newName;
+   }
 
   return (
     <div>
@@ -25,11 +30,11 @@ const Comments = ({ slug }) => {
           {comments.map((comment, index) => (
             <div key={index} className={styles.commentTitle}>
               <p className={styles.commentDate}>
-                <span style={{fontWeight: '600'}}>{comment.name}</span>
-                {' '}
+                <span style={{fontWeight: '600', color: '#F9FAFE'}}>{capitalizeName(comment.name)}</span>
+                {/* {' '}
                 on
                 {' '}
-                {moment((comment.createdAt).format('MMM DD YYYY'))}
+                {moment((comment.createdAt).format('MMM DD YYYY'))} */}
               </p>
               <p className={styles.comment}>{parse(comment.comment)}</p>
             </div>

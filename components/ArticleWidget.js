@@ -28,7 +28,7 @@ const ArticleWidget = ({ categories, slug }) => {
         return (
           <div key={index}>
             <div>
-              <p className={styles.articleDate}><i class="bi bi-calendar-event" style={{marginRight: '.5rem'}}></i>{moment(article.createdAt).format('MMM DD YYYY')}</p>
+              <p className={styles.articleDate}><i className="bi bi-calendar-event" style={{marginRight: '.5rem'}}></i>{moment(article.createdAt).format('MMM DD YYYY')}</p>
               <Link href={`/article/${article.slug}`} key={article.title}>
                 <p className={styles.recentArticleTitle}>{article.title}</p>
               </Link>

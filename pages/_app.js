@@ -1,6 +1,8 @@
 import Script from "next/script";
 import React, { useEffect, useState } from "react";
-import { Layout } from "../components";
+import { Header, Layout } from "../components";
+import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 import "../styles/globals.css";
 
 // <!-- Google tag (gtag.js) -->
@@ -15,28 +17,35 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
-
-      {/* GOOGLE ANALYTICS TAG SCRIPTS BELOW */}
-      {/* <Script
-        strategy="lazyOnLoad"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-      />
-
-      <Script strategy="lazyOnload" id="analytics">
-        {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}, {
-              page_path: window.location.pathname,
-            });
-                `}
-      </Script> */}
-
+    <>
+    {/* <Header></Header> */}
+    <Navbar/>
       <Component {...pageProps} />
-    </Layout>
+    </>
   );
 }
 
 export default MyApp;
+
+
+
+{/* <Layout>
+
+
+{/* GOOGLE ANALYTICS TAG SCRIPTS BELOW */}
+{/* <Script
+strategy="lazyOnLoad"
+src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+/>
+
+<Script strategy="lazyOnload" id="analytics">
+{`
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}, {
+  page_path: window.location.pathname,
+});
+`}
+</Script> 
+</Layout> */}
