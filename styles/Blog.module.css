@@ -26,7 +26,7 @@
   display: flex;
   flex-direction: row;
   z-index: 500;
-  background: hsl(0 0% 100% / 0.1);
+  background: hsl(0 0% 89.8% / 0.1);
   backdrop-filter: blur(1rem);
   letter-spacing: 2;
 }
@@ -80,7 +80,7 @@
   padding: 0;
   margin-bottom: 2rem;
   background: steelblue;
-  background: hsl(0 0% 100% / 0.1);
+  background: hsl(0 0% 89.8% / 0.1);
   backdrop-filter: blur(1rem);
   /* background: rgba(255, 255, 255, 0.23);
 border-radius: 14px;
@@ -140,7 +140,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
   border-radius: 0.5rem; 
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
   background: steelblue;
-  background: hsl(0 0% 100% / 0.1);
+  background: hsl(0 0% 89.8% / 0.1);
   backdrop-filter: blur(1rem);
 }
 
@@ -178,7 +178,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
   color: #252525;
   background: steelblue;
-  background: hsl(0 0% 100% / 0.15);
+  background: hsl(0 0% 89.8% / 0.15);
   backdrop-filter: blur(1rem);
 }
 
@@ -240,7 +240,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
   border-radius: 0.5rem; 
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
   background: steelblue;
-  background: hsl(0 0% 100% / 0.15);
+  background: hsl(0 0% 89.8% / 0.15);
   backdrop-filter: blur(1rem);
   /* background: rgba(255, 255, 255, 0.23);
 border-radius: 12px;
@@ -425,7 +425,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
   /* opacity: 0.2;  */
   background-color: #ffff;
   background: steelblue;
-  background: hsl(0 0% 100% / 0.15);
+  background: hsl(0 0% 89.8% / 0.15);
   backdrop-filter: blur(1rem);
 }
 
@@ -545,7 +545,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
     position: fixed;
     inset: 0 0 0 30%;
     background: steelblue;
-    background: hsl(0 0% 100% / 0.1);
+    background: hsl(0 0% 89.8% / 0.1);
     backdrop-filter: blur(1rem);
     display: flex;
     flex-direction: column;
@@ -562,8 +562,10 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
     position: fixed;
     inset: 0 0 0 25%;
     background: steelblue;
-    background: hsl(0 0% 100% / 0.1);
+    background: hsl(0 0% 89.8% / 0.1);
     backdrop-filter: blur(1rem);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
     display: flex;
     flex-direction: column;
     /* align-items: center; */
