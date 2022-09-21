@@ -27,8 +27,7 @@
     display: flex;
     flex-direction: row;
     z-index: 500;
-    background: hsl(0 0% 89.8% / 0.1);
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    background: hsl(0 0% 100% / 0.1);
     backdrop-filter: blur(1rem);
     letter-spacing: 2;
   }
@@ -57,7 +56,7 @@
     font-size: 2.25rem;
     line-height: 2.5rem; 
     color: #f5eee6;
-    transition-duration: .4s;
+    transition-duration: .2s;
     letter-spacing: 1.2px;
   }
 
@@ -86,7 +85,7 @@ MEDIA QUERIES FOR SMALLER DEVICES (IPAD, PHONES)
       position: fixed;
       inset: 0 0 0 25%;
       background: steelblue;
-      background: hsl(0 0% 89.8% / 0.1);
+      background: hsl(0 0% 100% / 0.1);
       backdrop-filter: blur(1rem);
       display: flex;
       flex-direction: column;
@@ -119,7 +118,7 @@ MEDIA QUERIES FOR SMALLER DEVICES (IPAD, PHONES)
       z-index: 500;
       border: none;
       cursor: pointer;
-      transition-duration: .4s;
+      transition-duration: .2s;
     }
   /* 
     .hamburgerMenuOff {

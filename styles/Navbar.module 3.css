@@ -13,7 +13,7 @@
     align-items: center;
     border-bottom-width: 1px;
     width: 100%;
-    border-bottom: 1px #f5eee6 solid;
+    border-bottom: 1px #ccd6f6 solid;
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
@@ -27,8 +27,7 @@
     display: flex;
     flex-direction: row;
     z-index: 500;
-    background: hsl(0 0% 89.8% / 0.1);
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    background: hsl(0 0% 100% / 0.1);
     backdrop-filter: blur(1rem);
     letter-spacing: 2;
   }
@@ -37,7 +36,7 @@
     display: inline-block;
     margin-top: 0.5rem;
     vertical-align: middle; 
-    color: #f5eee6;
+    color: #ccd6f6;
     margin-left: 1rem;
     letter-spacing: 1.2px;
     transition-duration: .3s;
@@ -56,8 +55,8 @@
     font-weight: bold;
     font-size: 2.25rem;
     line-height: 2.5rem; 
-    color: #f5eee6;
-    transition-duration: .4s;
+    color: #ccd6f6;
+    transition-duration: .2s;
     letter-spacing: 1.2px;
   }
 
@@ -86,7 +85,7 @@ MEDIA QUERIES FOR SMALLER DEVICES (IPAD, PHONES)
       position: fixed;
       inset: 0 0 0 25%;
       background: steelblue;
-      background: hsl(0 0% 89.8% / 0.1);
+      background: hsl(0 0% 100% / 0.1);
       backdrop-filter: blur(1rem);
       display: flex;
       flex-direction: column;
@@ -119,7 +118,7 @@ MEDIA QUERIES FOR SMALLER DEVICES (IPAD, PHONES)
       z-index: 500;
       border: none;
       cursor: pointer;
-      transition-duration: .4s;
+      transition-duration: .2s;
     }
   /* 
     .hamburgerMenuOff {

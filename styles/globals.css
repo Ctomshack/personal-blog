@@ -33,7 +33,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'roboto', sans-serif;
-  color: #ccd6f6;
+  color: #f5eee6;
 }
 
 body::before {
@@ -114,5 +114,5 @@ li {
 }
 
 p {
-  color: #ccd6f6;
+  color: #f5eee6;
 }

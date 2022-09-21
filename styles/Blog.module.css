@@ -26,7 +26,7 @@
   display: flex;
   flex-direction: row;
   z-index: 500;
-  background: hsl(0 0% 100% / 0.1);
+  background: hsl(0 0% 89.8% / 0.1);
   backdrop-filter: blur(1rem);
   letter-spacing: 2;
 }
@@ -45,7 +45,7 @@
   font-weight: bold;
   font-size: 2.25rem;
   line-height: 2.5rem; 
-  color: #ccd6f6;
+  color: #f5eee6;
 }
 
 
@@ -80,7 +80,7 @@
   padding: 0;
   margin-bottom: 2rem;
   background: steelblue;
-  background: hsl(0 0% 100% / 0.1);
+  background: hsl(0 0% 89.8% / 0.1);
   backdrop-filter: blur(1rem);
   /* background: rgba(255, 255, 255, 0.23);
 border-radius: 14px;
@@ -140,7 +140,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
   border-radius: 0.5rem; 
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
   background: steelblue;
-  background: hsl(0 0% 100% / 0.1);
+  background: hsl(0 0% 89.8% / 0.1);
   backdrop-filter: blur(1rem);
 }
 
@@ -155,7 +155,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
   padding-right: 2rem;
   cursor: pointer;
   color: #F9FAFE;
-  transition-duration: .3s;
+  transition-duration: .4s;
 }
 
 .articleExcerpt {
@@ -178,7 +178,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
   color: #252525;
   background: steelblue;
-  background: hsl(0 0% 100% / 0.15);
+  background: hsl(0 0% 89.8% / 0.15);
   backdrop-filter: blur(1rem);
 }
 
@@ -201,7 +201,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
 
 .commentsFormTextBox {
   padding: 1rem; 
-  background-color: #ccd6f6; 
+  background-color: #f5eee6; 
   width: 100%; 
   border-radius: 0.5rem;
   border: none;
@@ -240,7 +240,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
   border-radius: 0.5rem; 
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
   background: steelblue;
-  background: hsl(0 0% 100% / 0.15);
+  background: hsl(0 0% 89.8% / 0.15);
   backdrop-filter: blur(1rem);
   /* background: rgba(255, 255, 255, 0.23);
 border-radius: 12px;
@@ -256,18 +256,18 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
   font-size: 1.25rem;
   line-height: 1.75rem; 
   font-weight: 600; 
-  border-bottom: 1px solid #ccd6f6; 
-  color: #ccd6f6;
+  border-bottom: 1px solid #f5eee6; 
+  color: #f5eee6;
 }
 
 .recentArticleTitle {
   font-weight: 500;
   margin-bottom: 2rem;
   padding-bottom: 1rem;
-  border-bottom: .75px #ccd6f6 solid;
+  border-bottom: .75px #f5eee6 solid;
   cursor: pointer;
-  transition-duration: .3s;
-  color: #ccd6f6;
+  transition-duration: .4s;
+  color: #f5eee6;
 }
 
 .recentArticleTitle:hover {
@@ -278,12 +278,12 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
 .articleDate {
   font-weight: lighter;
   font-size: .8rem;
-  color: #ccd6f6;
+  color: #f5eee6;
 }
 
 .categoryTitle {
-  color: #ccd6f6;
-  transition-duration: .3s;
+  color: #f5eee6;
+  transition-duration: .4s;
 }
 
 .categoryTitle:hover {
@@ -297,7 +297,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
   padding-bottom: .75rem;
   /* border-bottom: 1px #e5e5e5 solid; */
   cursor: pointer;
-  transition-duration: .3s;
+  transition-duration: .4s;
 }
 
 /* .category:hover {
@@ -323,11 +323,11 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
 
 .commentDate {
   margin-bottom: 1rem;
-  color: #ccd6f6;
+  color: #f5eee6;
 }
 
 .comment {
-  color: #ccd6f6; 
+  color: #f5eee6; 
   white-space: pre-line;
   width: 100%; 
 }
@@ -344,7 +344,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
     border: 1px solid #8892b0;
     /* border: none; */
     color: #8892b0;
-    transition-duration: .3s;
+    transition-duration: .4s;
     cursor: pointer;
     padding: 0 2rem;
 }
@@ -383,7 +383,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
 }
 
 .commentSubmitButton {
-  transition-duration: .3s;
+  transition-duration: .4s;
 }
 
 
@@ -425,7 +425,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
   /* opacity: 0.2;  */
   background-color: #ffff;
   background: steelblue;
-  background: hsl(0 0% 100% / 0.15);
+  background: hsl(0 0% 89.8% / 0.15);
   backdrop-filter: blur(1rem);
 }
 
@@ -448,7 +448,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
 }
 
 .authorBio {
-  color: #ccd6f6; 
+  color: #f5eee6; 
   font-size: 1.125rem;
   line-height: 1.75rem; 
   text-align: left;
@@ -545,7 +545,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
     position: fixed;
     inset: 0 0 0 30%;
     background: steelblue;
-    background: hsl(0 0% 100% / 0.1);
+    background: hsl(0 0% 89.8% / 0.1);
     backdrop-filter: blur(1rem);
     display: flex;
     flex-direction: column;
@@ -562,8 +562,10 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
     position: fixed;
     inset: 0 0 0 25%;
     background: steelblue;
-    background: hsl(0 0% 100% / 0.1);
+    background: hsl(0 0% 89.8% / 0.1);
     backdrop-filter: blur(1rem);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
     display: flex;
     flex-direction: column;
     /* align-items: center; */
