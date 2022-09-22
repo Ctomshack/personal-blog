@@ -7,12 +7,13 @@ import { SiNodedotjs } from 'react-icons/si';
 import { SiHeroku } from 'react-icons/si';
 import { SiExpress } from 'react-icons/si';
 import Image from 'next/image';
+import SwoopdeckImage from '../SwoopdeckImage';
 
 const SwoopDeck = () => {
   return (
     <div className={styles.projectWrapper}>
                 <div className={styles.projectImageWrapper}>
-                    <Image src='/assets/macmonitor.png' alt='swoopdeck demo' layout='fill' />
+                    <SwoopdeckImage/>
                 </div>
                 <div className={styles.projectDescriptionWrapper}>
                     <div className={styles.projectTitle} style={{color: '#64ffda'}}>SWOOPDECK</div>

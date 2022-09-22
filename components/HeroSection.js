@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
 import Socials from "./Socials";
+import Image from "next/image";
 
 const HeroSection = () => {
   return (
@@ -14,9 +15,11 @@ const HeroSection = () => {
         <Socials />
       </div>
       <div className={styles.heroImageWrapper}>
-        {/* <Image src={"/assets/Chris_Headshot.jpeg"}
+        {/* <Image src='/chris-headshot(1).png'
             alt="Chris Headshot"
-            layout="fill"/> */}
+            height='1087'
+            width='1209'
+            className={styles.heroImage}/> */}
       </div>
     </div>
   );

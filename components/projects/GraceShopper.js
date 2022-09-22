@@ -7,12 +7,13 @@ import { SiNodedotjs } from 'react-icons/si';
 import { SiHeroku } from 'react-icons/si';
 import { SiExpress } from 'react-icons/si';
 import Image from 'next/image';
+import BakedImage from '../BakedImage';
 
 const GraceShopper = () => {
   return (
     <div className={styles.projectWrapper} style={{borderTop: '2px solid #ff6489'}}>
                 <div className={styles.projectImageWrapper}>
-                  <Image src='/assets/macmonitor.png' alt='swoopdeck demo' layout='fill' />
+                  <BakedImage />
                 </div>
                 <div className={styles.projectDescriptionWrapper}>
                     <div className={styles.projectTitle} style={{color: '#ff6489'}}>E-COMMERCE</div>
