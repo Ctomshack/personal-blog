@@ -53,6 +53,15 @@
     margin-bottom: 1.75rem;
   }
 
+  .getInTouch {
+    font-size: 1.2rem;
+    padding-left: .5rem;
+    border-radius: 4px;
+    width: 40%;
+    padding: .5rem 1rem;
+    color: #64ffda;
+  }
+
 .heroImageContainer {
   display: flex;
   flex-direction: column;
@@ -289,12 +298,16 @@
 @media (max-width: 1102px) {
   .heroTitleWrapper {
     flex-direction: column;
-    margin-top: -2rem;
+    margin-top: 1rem;
   }
 
   .heroImageContainer {
     justify-content: flex-end;
-    margin-top: 1rem;
+    margin-top: 10rem;
+  }
+
+  .heroContainer {
+    margin-bottom: 7rem;
   }
 }
 
