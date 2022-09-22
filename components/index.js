@@ -16,3 +16,4 @@ export { default as Footer } from './Footer';
 import { default as SwoopdeckImage } from './SwoopdeckImage';
 import { default as BakedImage } from './BakedImage';
 import { default as BlogImage } from './BlogImage';
+import { default as FirstArticle } from '../components/blogArticles/FirstArticle';
