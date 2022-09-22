@@ -10,7 +10,7 @@ const HeroSection = () => {
         <span className={styles.myName}>CHRIS</span>
         <span className={styles.myName}>TOMSHACK</span>
         <span className={styles.myTitles}>
-          Software Engineer / Co-Founder / Fitness Enthusiast
+          Software Engineer / Co-Founder / Skydiver / IRONMAN Triathlete
         </span>
         <Socials />
       </div>
