@@ -1,0 +1,12 @@
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: #8d8d8d;
+}
+
+.footerElement {
+    margin: 1rem 0;
+}
