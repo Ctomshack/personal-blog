@@ -120,3 +120,14 @@ li {
 p {
   color: #f5eee6;
 }
+
+@media (max-width: 851px) {
+  body {
+    /* background: rgb(35,53,84); */
+    background: radial-gradient(circle, rgba(35,53,84,1) 0%, rgba(0,0,0,1) 100%);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+}
