@@ -7,3 +7,5 @@ export { default as Author } from './Author';
 export { default as ArticleContent } from './ArticleContent';
 export { default as CommentsForm } from './CommentsForm';
 export { default as Comments } from './Comments';
+export { default as BlogSection } from './BlogSection';
+export { default as HeroSection } from './HeroSection';

@@ -76,7 +76,7 @@
   grid-column: 1 / span 1; 
   background-color: #ffff;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  border-radius: 0.5rem;
+  border-radius: 4px;
   padding: 0;
   margin-bottom: 2rem;
   background: steelblue;
@@ -107,7 +107,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem; 
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
-  border-radius: 14px;
+  border-radius: 4px;
 }
 
 .singleArticleImageWrapper {
@@ -137,7 +137,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
 
 .singleArticleContainer {
   background-color: #ffffff; 
-  border-radius: 0.5rem; 
+  border-radius: 4px; 
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
   background: steelblue;
   background: hsl(0 0% 89.8% / 0.1);
@@ -174,7 +174,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
   padding-bottom: 3rem; 
   margin-bottom: 2.5rem; 
   background-color: #F9FAFE; 
-  border-radius: 0.5rem; 
+  border-radius: 4px; 
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
   color: #252525;
   background: steelblue;
@@ -237,7 +237,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
   background-color: #ffff;
   padding: 2rem; 
   margin-bottom: 2rem; 
-  border-radius: 0.5rem; 
+  border-radius: 4px; 
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
   background: steelblue;
   background: hsl(0 0% 89.8% / 0.15);
@@ -341,9 +341,9 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
 /* BUTTON STYLING */
 .btnPrimary {
     background-color: transparent;
-    border: 1px solid #8892b0;
+    border: 1px solid #8d8d8d;
     /* border: none; */
-    color: #8892b0;
+    color: #8d8d8d;
     transition-duration: .4s;
     cursor: pointer;
     padding: 0 2rem;
@@ -421,7 +421,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
   margin-top: 2.5rem; 
   /* background-color: #000000;  */
   text-align: center; 
-  border-radius: 0.5rem;  
+  border-radius: 4px;  
   /* opacity: 0.2;  */
   background-color: #ffff;
   background: steelblue;
@@ -456,7 +456,8 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
 
 .authorImage {
   vertical-align: middle; 
-  border-radius: 9999px; 
+  /* border-radius: 9999px; */
+  border-radius: 8px;
   /* opacity: 100%; */
 }
 
