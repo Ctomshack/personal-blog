@@ -14,12 +14,15 @@ const HeroSection = () => {
         </span>
         <Socials />
       </div>
+      <div className={styles.heroImageContainer}>
+
       <div className={styles.heroImageWrapper}>
-        {/* <Image src='/chris-headshot(1).png'
+        <Image src='/chris-headshot(1).png'
             alt="Chris Headshot"
             height='1087'
             width='1209'
-            className={styles.heroImage}/> */}
+            className={styles.heroImage}/>
+      </div>
       </div>
     </div>
   );

@@ -8,7 +8,8 @@
   .homeContainer {
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    margin-top: -3rem;
     /* padding-inline: 1rem; */
     /* border: solid 1px #64ffda; */
   }
@@ -17,8 +18,10 @@
     /* border: solid 1px #f5eee6; */
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     height: 900px;
     margin-bottom: 3rem;
+    gap: 1rem;
   }
 
   .heroTitleWrapper {
@@ -37,7 +40,7 @@
     text-align: left;
     margin-bottom: .5rem;
     /* font-style: oblique; */
-    display: flex;
+    /* display: flex; */
   }
 
   .myTitles {
@@ -50,13 +53,35 @@
     margin-bottom: 1.75rem;
   }
 
+.heroImageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 3rem; */
+  /* margin-top: 9rem; */
+  flex: 2 2;
+}
+
   .heroImageWrapper {
-    /* width: 40%; */
-    
+    width: 48%;
+    max-height: 440px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border: solid 2px #64ffda;
+    border-radius: 80px;
+    width: 600px;
+    min-width: 390px;
+    min-height: 350px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+    flex-shrink: 1;
   }
 
   .heroImage {
     border-radius: 80px;
+    border: solid 2px #64ffda;
+    
   }
 
 
@@ -260,6 +285,14 @@
   border: 1px solid #66f4da;
 }
 
+
+@media (max-width: 1102px) {
+  .heroTitleWrapper {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+}
 
 @media (max-width: 820px) {
   .blogArticle {
