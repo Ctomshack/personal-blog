@@ -17,7 +17,7 @@ const Blog = () => {
                 </div>
                 <div className={styles.projectDescriptionWrapper}>
                     <div className={styles.projectTitle} style={{color: '#64ffda'}}>PERSONAL BLOG</div>
-                    <div className={styles.projectDescription}>A full-stack web-application that provides a platform to share my thoughts and interact with readers through a dedicated comment section</div>
+                    <div className={styles.projectDescription}>{`A full-stack web-application that makes API calls to a relational database via Next.js & GraphQL that hosts blost posts and images, author information, and related comments from guests`} </div>
                     <div className={styles.iconsWrapper}>
                     <SiNextdotjs size={25} />
                     <SiGraphql size={25} />

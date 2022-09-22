@@ -3,6 +3,7 @@
     flex-direction: row;
     gap: 1.75rem;
     padding-left: .7rem;
+    margin-bottom: 1.5rem;
 }
 
 .icon {

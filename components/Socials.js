@@ -10,16 +10,16 @@ const Socials = () => {
   return (
     <div className={styles.container}>
         <Link href='https://www.linkedin.com/in/christomshack/'>
-        <FaLinkedinIn size={18} className={styles.icon}/>
+        <FaLinkedinIn size={22} className={styles.icon}/>
         </Link>
         <Link href='https://github.com/Ctomshack'>
-        <FaGithub size={18} className={styles.icon}/>
+        <FaGithub size={22} className={styles.icon}/>
         </Link>
         <Link href='https://www.instagram.com/christomshack_/'>
-        <FaInstagram size={18} className={styles.icon}/>
+        <FaInstagram size={22} className={styles.icon}/>
         </Link>
         <Link href='https://twitter.com/ChrisTomshack_'>
-        <FaTwitter size={18} className={styles.icon}/>
+        <FaTwitter size={22} className={styles.icon}/>
         </Link>
     
     </div>

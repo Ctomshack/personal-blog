@@ -1,6 +1,6 @@
 .projectWrapper {
     display: flex;
-    height: 300px;
+    height: 330px;
     width: 100%;
     /* border: 1px solid #8d8d8d; */
     margin-bottom: 2rem;
@@ -20,6 +20,7 @@
     min-height: 300px;
     position: relative;
     margin-left: 1rem;
+    margin-top: 1rem;
   }
 
   .projectDescriptionWrapper {
@@ -79,5 +80,10 @@
       align-items: center;
       margin-bottom: 3rem;
       padding-top: 1rem;
+      margin-top: 0;
+    }
+
+    .projectDescriptionWrapper {
+      width: 100%;
     }
   }
