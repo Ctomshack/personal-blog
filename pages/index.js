@@ -6,7 +6,7 @@ import Socials from "../components/Socials";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import Link from "next/link";
 import BlogSection from "../components/BlogSection";
-import { HeroSection } from "../components";
+import { HeroSection, WorkSection } from "../components";
 
 export default function Home() {
   return (
@@ -27,6 +27,9 @@ export default function Home() {
         </section>
         <section id="BlogSection">
           <BlogSection />
+        </section>
+        <section id="WorkSection">
+          <WorkSection />
         </section>
       </div>
     </div>

@@ -9,3 +9,7 @@ export { default as CommentsForm } from './CommentsForm';
 export { default as Comments } from './Comments';
 export { default as BlogSection } from './BlogSection';
 export { default as HeroSection } from './HeroSection';
+export { default as WorkSection } from './WorkSection';
+export { default as SwoopDeck } from '../components/projects/SwoopDeck';
+export { default as GraceShopper } from '../components/projects/GraceShopper';
+export { default as Footer } from './Footer';

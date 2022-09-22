@@ -1,6 +1,6 @@
 import Script from "next/script";
 import React, { useEffect, useState } from "react";
-import { Header, Layout } from "../components";
+import { Footer, Header, Layout } from "../components";
 import Navbar from "../components/Navbar";
 // import Navbar from "../components/Navbar";
 import "../styles/globals.css";
@@ -21,6 +21,7 @@ function MyApp({ Component, pageProps }) {
     {/* <Header></Header> */}
     <Navbar/>
       <Component {...pageProps} />
+    <Footer />
     </>
   );
 }

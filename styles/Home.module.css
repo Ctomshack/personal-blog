@@ -55,6 +55,13 @@
     /* background-color: black; */
   }
 
+
+
+
+
+  /*
+   WORK SECTION STYLING
+  */
   .blogContainer {
     /* border: solid 1px #f5eee6; */
     /* display: grid;
@@ -62,7 +69,7 @@
     display: flex;
     flex-direction: column;
     height: auto;
-    margin-bottom: 2rem;
+    margin-bottom: 10rem;
     position: relative;
   }
 
@@ -111,7 +118,7 @@
     gap: .5rem;
     color: #64ffda;
     font-size: .9rem;
-    height: 330px;
+    height: 370px;
     margin-bottom: 2rem;
   }
 
@@ -172,7 +179,60 @@
     color: red
   }
 
-  /* BUTTON STYLING */
+
+
+
+
+   /*
+   WORK SECTION STYLING
+  */
+  .workContainer {
+    /* border: solid 1px #f5eee6; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 6rem;
+    margin-top: 2rem;
+    position: relative;
+  }
+
+  .workSectionTitle {
+    font-size: 15rem;
+    font-weight: 700;
+    color: #8d8d8d;
+    opacity: .4;
+    height: auto;
+    letter-spacing: .5rem;
+    /* height: 100%; */
+    /* margin-top: -4rem; */
+  }
+
+  .projectContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-self: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    /* padding-inline: 2rem; */
+    margin-top: -5.5rem;
+    height: auto;
+    /* border: 1px solid #8d8d8d; */
+  }
+
+
+
+
+
+
+
+  /*
+   BUTTON STYLING 
+  */
 .btnPrimary {
     background-color: transparent;
     border: 1px solid #8d8d8d;
