@@ -34,6 +34,8 @@ body {
   margin: 0;
   font-family: 'roboto', sans-serif;
   color: #f5eee6;
+  /* background: rgb(35,53,84);
+  background: radial-gradient(circle, rgba(35,53,84,1) 0%, rgba(0,0,0,1) 100%); */
 }
 
 body::before {
@@ -41,11 +43,13 @@ body::before {
     content: "";
     width: 100%;
     height: 100vh;
-    /* background-image: url("../assets/1014.jpg"); */
-    /* background: rgb(75,85,99);
-    background: radial-gradient(circle, rgba(75,85,99,1) 0%, rgba(17,34,64,1) 100%); */
     background: rgb(35,53,84);
     background: radial-gradient(circle, rgba(35,53,84,1) 0%, rgba(10,25,47,1) 100%);
+
+
+    background: rgb(35,53,84);
+background: radial-gradient(circle, rgba(35,53,84,1) 0%, rgba(0,0,0,1) 100%);
+
     position: fixed;
     left: 0;
     top: 0;

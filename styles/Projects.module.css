@@ -14,8 +14,12 @@
   .projectImageWrapper {
     /* border: 2px solid #64ffda; */
     width: 40%;
-    height: 100%;
+    width: 350px;
+    height: 300px;
+    min-width: 350px;
+    min-height: 300px;
     position: relative;
+    margin-left: 1rem;
   }
 
   .projectDescriptionWrapper {
@@ -61,4 +65,19 @@
     margin-top: 1rem;
     padding-inline: 1.5rem;
     color: #8d8d8d;
+  }
+
+
+  @media (max-width: 775px) {
+    .projectWrapper {
+      flex-direction: column;
+      width: 550px;
+      width: 100%;
+      min-width: 500px;
+      height: 700px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 3rem;
+      padding-top: 1rem;
+    }
   }
