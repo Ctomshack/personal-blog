@@ -9,6 +9,7 @@
     background: hsl(0 0% 89.8% / 0.15);
     backdrop-filter: blur(1rem);
     border-top: 2px solid #64ffda;
+    margin-inline: 1.5rem;
   }
 
   .projectImageWrapper {
