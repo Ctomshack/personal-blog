@@ -14,7 +14,7 @@ const [navItems, setNavItemsClass] = useState(styles.navItemsOff);
 const [open, setOpen] = useState(false);
 
 const hamburgerIcon = <HiMenuAlt3 className={hamburgerClass} style={{color: 'white'}} size={35} onClick={() => (!open, toggleNav())} />
-const closeIcon = <FaMixer size={35} className={hamburgerClass} style={{color: 'white'}} onClick={() => (!open, toggleNav())} />
+const closeIcon = <FaMixer size={35} className={hamburgerClass} style={{color: 'white', position: 'fixed'}} onClick={() => (!open, toggleNav())} />
 
 // FUNCTION TO TOGGLE NAVIGATION MENU //
 const toggleNav = () => {
