@@ -396,6 +396,17 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
   color: #208bfd;
 } */
 
+.blockQuote {
+  margin-bottom: 2rem; 
+  line-height: 1.5;
+  padding-right: 2rem;
+  padding-left: 1rem;
+  border-left: 1px solid #8d8d8d;
+  color: #8d8d8d;
+  margin-left: 2rem;
+  font-style: italic;
+}
+
 .headingTwo {
   margin-bottom: 1rem; 
   margin-top: 6rem;
@@ -413,17 +424,27 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
   font-size: 1.25rem;
   line-height: 1.75rem; 
   font-weight: 600; 
+  color: #f5eee6;
+  padding-left: 2rem;
+  margin-top: 4rem;
 }
 
 .headingFour {
   margin-bottom: 1rem; 
-  font-weight: 600; 
+  font-size: 1.15rem;
+  line-height: 1.75rem; 
+  font-weight: 500; 
+  color: #f5eee6;
+  padding-left: 2rem;
+  margin-top: 3rem;
 }
 
 .paragraph {
-  margin-bottom: 2rem; 
+  margin-bottom: 1.5rem; 
   line-height: 1.5;
   padding-inline: 2rem;
+  font-weight: 400;
+  font-size:.9rem;
 }
 
 .authorContainer {
@@ -460,7 +481,7 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
 
 .authorBio {
   color: #f5eee6; 
-  font-size: 1.125rem;
+  font-size: .9rem;
   line-height: 1.75rem; 
   text-align: left;
 }
