@@ -557,6 +557,12 @@ border: 1px solid rgba(255, 255, 255, 0.3); */
   }
 }
 
+@media (max-width: 680px) {
+  .singleArticleContainer {
+    min-width: 600px;
+  }
+}
+
 @media (min-width: 768px) {
   .navLinkContainer {
     float: left;
