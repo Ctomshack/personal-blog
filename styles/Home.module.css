@@ -5,6 +5,16 @@
     padding-inline: 2.5rem;
   }
 
+  .progressBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: #64ffda;
+    transform-origin: 0%;
+  }
+
   .homeContainer {
     margin-right: auto;
     margin-left: auto;

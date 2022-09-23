@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useRef } from 'react';
 import Link from 'next/link';
 import { FaMixer } from "react-icons/fa";
 import { HiMenuAlt3 } from "react-icons/hi";
@@ -33,6 +33,12 @@ const closeNav = () => {
     toggleNav();
 }
 
+// SMOOTH SCROLL FOR ANCHOR TAGS //
+// const projectElement = useRef();
+// const scrollFunction = () => {
+//     projectElement.scrollIntoView({block: 'start', behavior: 'smooth', inline: 'start'})
+// }
+
 const animateFrom = {opacity: 0, y: -40}
 const animateTo = {opacity: 1, y:0}
 
@@ -66,20 +72,18 @@ const animateTo = {opacity: 1, y:0}
                         </Link>
                 </motion.li>
                 <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.25}}  className={styles.navItem} onClick={closeNav}>
-                <Link href='/'>
-                        <a style={{fontWeight: '400'}}>
+
+                        <a href='#projects' style={{fontWeight: '400'}}>
                         <span aria-hidden='true' style={{fontWeight: '700', color: '#64ffda'}}>02. </span>
                         Projects
                         </a>
-                        </Link>
+
                 </motion.li>
                 <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.35}}  className={styles.navItem} onClick={closeNav}>
-                <Link href='https://github.com/Ctomshack' target='_blank'>
-                        <a style={{fontWeight: '400'}}>
+                        <a href='https://github.com/Ctomshack' target='_blank' rel='noreferrer' style={{fontWeight: '400'}}>
                         <span aria-hidden='true' style={{fontWeight: '700', color: '#64ffda'}}>03. </span>
                         Github
                         </a>
-                        </Link>
                 </motion.li>
             </ul>
         </nav>

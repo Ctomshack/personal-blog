@@ -14,6 +14,7 @@ const BlogSection = () => {
     <div className={styles.blogContainer}>
             <div className={styles.blogSectionTitle}>Blog</div>
             <div className={styles.blogArticles}>
+              
               <FirstArticle />
               <SecondArticle />
               <ThirdArticle />
