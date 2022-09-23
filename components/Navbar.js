@@ -56,17 +56,17 @@ const animateTo = {opacity: 1, y:0}
             
             <ul className={navItems}>
                 <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.05}} className={styles.navItem} onClick={closeNav}>
-                    {/* <Link href='/'>
+                    <Link href='/'>
                         <a style={{fontWeight: '400'}}>
                         <span aria-hidden='true' style={{fontWeight: '700', color: '#64ffda'}}>01. </span>
-                        About
+                        Home
                         </a>
-                        </Link> */}
+                        </Link>
                 </motion.li>
                 <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.15}}  className={styles.navItem} onClick={closeNav}>
                 <Link href='/blog'>
                         <a style={{fontWeight: '400'}}>
-                        <span aria-hidden='true' style={{fontWeight: '700', color: '#64ffda'}}>01. </span>
+                        <span aria-hidden='true' style={{fontWeight: '700', color: '#64ffda'}}>02. </span>
                         Blog
                         </a>
                         </Link>
@@ -74,14 +74,14 @@ const animateTo = {opacity: 1, y:0}
                 <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.25}}  className={styles.navItem} onClick={closeNav}>
 
                         <a href='#projects' style={{fontWeight: '400'}}>
-                        <span aria-hidden='true' style={{fontWeight: '700', color: '#64ffda'}}>02. </span>
+                        <span aria-hidden='true' style={{fontWeight: '700', color: '#64ffda'}}>03. </span>
                         Projects
                         </a>
 
                 </motion.li>
                 <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.35}}  className={styles.navItem} onClick={closeNav}>
                         <a href='https://github.com/Ctomshack' target='_blank' rel='noreferrer' style={{fontWeight: '400'}}>
-                        <span aria-hidden='true' style={{fontWeight: '700', color: '#64ffda'}}>03. </span>
+                        <span aria-hidden='true' style={{fontWeight: '700', color: '#64ffda'}}>04. </span>
                         Github
                         </a>
                 </motion.li>

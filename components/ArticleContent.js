@@ -22,6 +22,10 @@ const ArticleContent = ({ article }) => {
     }
 
     switch (type) {
+      case 'block-quote':
+        return <p key={index} className={styles.blockQuote}>{modifiedText.map((item, index) => <React.Fragment key={index}>{item}</React.Fragment>)}</p>;
+      case 'heading-two':
+        return <h2 key={index} className={styles.headingTwo}>{modifiedText.map((item, index) => <React.Fragment key={index}>{item}</React.Fragment>)}</h2>;
       case 'heading-three':
         return <h3 key={index} className={styles.headingThree}>{modifiedText.map((item, index) => <React.Fragment key={index}>{item}</React.Fragment>)}</h3>;
       case 'paragraph':
@@ -43,6 +47,7 @@ const ArticleContent = ({ article }) => {
     }
   }
 
+  console.log(article)
   
   return (
     <div className={styles.singleArticleContainer}>
