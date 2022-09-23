@@ -19,7 +19,7 @@ const ThirdArticle = () => {
       >{`"Not all readers are leaders, but all leaders are readers.” - Harry S. Truman`}</div>
       <div
         className={styles.articleExcerpt}
-      >{`You have probably heard this...`}</div>
+      >{`You have probably heard this quote, or were told something...`}</div>
       <Link href="/article/how-i-increased-my-reading-speed-by-300-percent-in-20-minutes">
         <button
           className={styles.btnPrimary}
