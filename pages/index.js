@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>{`Chris Tomshack's Blog`}</title>
+        <title>{`Chris Tomshack's Dev Site + Blog`}</title>
         <meta name="Chris Tomshack.dev" content="Chris Tomshack.dev" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
         <link
