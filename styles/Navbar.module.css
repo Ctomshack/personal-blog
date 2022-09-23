@@ -78,6 +78,19 @@ MEDIA QUERIES FOR SMALLER DEVICES (IPAD, PHONES)
 */
   
   @media (max-width: 768px) {
+
+    .container {
+      width: 100%;
+      width: 100vw; 
+      min-width: 668.5px;
+    }
+
+    .nav {
+      min-width: 600px;
+      display: flex;
+      justify-content: space-between;
+    }
+
     .navItemsOff {
         display: none;
     }
@@ -94,8 +107,8 @@ MEDIA QUERIES FOR SMALLER DEVICES (IPAD, PHONES)
       padding: min(40vh, 10rem) 2rem;
       z-index: 100;
       gap: 3rem;
-      font-size: 1.4rem;
-      height: 100vh;
+      font-size: 2.5rem;
+      height: 100%;
       margin-top: 0;
     }
 
@@ -111,7 +124,7 @@ MEDIA QUERIES FOR SMALLER DEVICES (IPAD, PHONES)
   
     .hamburgerOn {
       display: block;
-      position: absolute;
+      position: static;
       display: 'inline-block';
       size: '40px';
       color: 'white';
@@ -120,6 +133,10 @@ MEDIA QUERIES FOR SMALLER DEVICES (IPAD, PHONES)
       border: none;
       cursor: pointer;
       transition-duration: .4s;
+    }
+
+    .hamburgerOn:hover {
+      color: #64ffda;
     }
   /* 
     .hamburgerMenuOff {

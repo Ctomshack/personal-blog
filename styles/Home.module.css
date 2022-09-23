@@ -90,7 +90,6 @@
   .heroImage {
     border-radius: 80px;
     border: solid 2px #64ffda;
-    
   }
 
 
@@ -107,6 +106,7 @@
     height: auto;
     margin-bottom: 10rem;
     position: relative;
+    min-width: 600px;
   }
 
   .blogSectionTitle {
@@ -232,6 +232,7 @@
     margin-bottom: 6rem;
     margin-top: 2rem;
     position: relative;
+    min-width: 600px;
   }
 
   .workSectionTitle {
@@ -335,7 +336,7 @@
 
 @media (max-width: 540px) {
   .blogArticles {
-    padding-left: 3rem;
-    margin-left: 7rem;
+    /* padding-left: 3rem;
+    margin-left: 7rem; */
   }
 }

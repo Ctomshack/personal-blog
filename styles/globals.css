@@ -55,8 +55,7 @@ background: radial-gradient(circle, rgba(35,53,84,1) 0%, rgba(0,0,0,1) 100%);
     top: 0;
     z-index: -1;
     background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 
 }
 
@@ -121,11 +120,19 @@ p {
   color: #f5eee6;
 }
 
-/* @media (max-width: 851px) {
-  body {
-    background: radial-gradient(circle, rgba(35,53,84,1) 0%, rgba(0,0,0,1) 100%);
+@media (max-width: 851px) {
+
+  html, body {
+    width: 100%;
+    width: 100vw;
+  }
+  body::before {
+    /* background: radial-gradient(circle, rgba(35,53,84,1) 0%, rgba(0,0,0,1) 100%);
     background-size: cover;
+    height: 100%;
+    width: 100%; */
+    height: 100vh;
     height: 100%;
     width: 100%;
   }
-} */
+}

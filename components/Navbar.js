@@ -13,8 +13,8 @@ const [hamburgerClass, setHamburgerClass] = useState(styles.hamburgerOn);
 const [navItems, setNavItemsClass] = useState(styles.navItemsOff);
 const [open, setOpen] = useState(false);
 
-const hamburgerIcon = <HiMenuAlt3 className={hamburgerClass} style={{color: 'white'}} size={35} onClick={() => (!open, toggleNav())} />
-const closeIcon = <FaMixer size={35} className={hamburgerClass} style={{color: 'white', position: 'fixed'}} onClick={() => (!open, toggleNav())} />
+const hamburgerIcon = <HiMenuAlt3 className={hamburgerClass} size={35} onClick={() => (!open, toggleNav())} />
+const closeIcon = <FaMixer size={35} className={hamburgerClass} style={{ position: 'fixed'}} onClick={() => (!open, toggleNav())} />
 
 // FUNCTION TO TOGGLE NAVIGATION MENU //
 const toggleNav = () => {
@@ -69,7 +69,7 @@ const animateTo = {opacity: 1, y:0}
                 <Link href='/'>
                         <a style={{fontWeight: '400'}}>
                         <span aria-hidden='true' style={{fontWeight: '700', color: '#64ffda'}}>02. </span>
-                        Portfolio
+                        Projects
                         </a>
                         </Link>
                 </motion.li>
