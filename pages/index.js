@@ -8,7 +8,12 @@ import Link from "next/link";
 import BlogSection from "../components/BlogSection";
 import { HeroSection, WorkSection } from "../components";
 
+import { motion, useScroll } from "framer-motion";
+
+
 export default function Home() {
+
+  
   return (
     <div className={styles.container}>
       <Head>
@@ -23,13 +28,28 @@ export default function Home() {
 
       <div className={styles.homeContainer}>
         <section id="HeroSection">
-          <HeroSection />
+          <motion.div
+              initial={{ opacity: 0, x: -70 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{duration: 1}}>
+            <HeroSection />
+          </motion.div>
         </section>
         <section id="BlogSection">
-          <BlogSection />
+          <motion.div
+                initial={{ opacity: 0, x: 70 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{duration: 1}}>
+            <BlogSection />
+          </motion.div>
         </section>
-        <section id="WorkSection">
+        <section id="projects">
+        <motion.div
+              initial={{ opacity: 0, x: -70 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{duration: 1}}>
           <WorkSection />
+          </motion.div>
         </section>
       </div>
     </div>
