@@ -16,7 +16,7 @@ const FirstArticle = () => {
       >{`"If you have to prove something to someone, make that someone yourself"`}</div>
       <div
         className={styles.articleExcerpt}
-      >{`RACE MORNING - I slept through the night until...`}</div>
+      >{`RACE MORNING - I slept through the night until an undying urge to... `}</div>
       <Link href="/article/ironman-cozumel-race-report">
         <button
           className={styles.btnPrimary}
