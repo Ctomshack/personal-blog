@@ -82,7 +82,7 @@
   background: steelblue;
   background: hsl(0 0% 89.8% / 0.1);
   backdrop-filter: blur(1rem);
-  max-width: 750px;
+  max-width: 900px;
   /* background: rgba(255, 255, 255, 0.23);
 border-radius: 14px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
