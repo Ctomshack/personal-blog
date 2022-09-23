@@ -5,6 +5,7 @@
     align-items: center;
     margin-bottom: 1rem;
     color: #8d8d8d;
+    min-width: 668px;
 }
 
 .footerElement {
