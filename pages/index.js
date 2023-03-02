@@ -4,7 +4,7 @@ import { ArticleCard, Categories, ArticleWidget } from "../components";
 import { getArticles } from "../services";
 
 export default function Home({ articles }) {
-
+console.log(articles)
   return (
     <div className={styles.container}>
       <Head>
