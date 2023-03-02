@@ -64,16 +64,12 @@ const animateTo = {opacity: 1, y:0}
                         </Link>
                 </motion.li>
                 <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.15}}  className={styles.navItem} onClick={closeNav}>
-                <Link href='/blog'>
-                        <a style={{fontWeight: '400'}}>
-                        {/* <span aria-hidden='true' style={{fontWeight: '700', color: '#64ffda'}}>02. </span> */}
+                <a target="_blank" href="https://www.christomshack.dev/" rel="noopener noreferrer" style={{fontWeight: '400'}}>
                         Portfolio
                         </a>
-                        </Link>
                 </motion.li>
                 <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.35}}  className={styles.navItem} onClick={closeNav}>
                         <a href='https://github.com/Ctomshack' target='_blank' rel='noreferrer' style={{fontWeight: '400'}}>
-                        {/* <span aria-hidden='true' style={{fontWeight: '700', color: '#64ffda'}}>04. </span> */}
                         Github
                         </a>
                 </motion.li>
